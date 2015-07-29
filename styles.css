@@ -1,0 +1,11 @@
+body {
+  background: rgb(15, 15, 15);
+  color: rgb(200, 200, 200);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
