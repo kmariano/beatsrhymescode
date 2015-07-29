@@ -3,9 +3,47 @@ body {
   color: rgb(200, 200, 200);
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  text-align: center;
+
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+.beats {
+  color: #FFD900;
+}
+
+.rhymes {
+  color: #5AD2E0;
+}
+
+.code {
+  color: #FF565B;
 }
 
 .container {
   margin: 0 auto;
-  width: 600px;
+  width: 410px;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 2px;
+
+  border: 1px solid rgb(230, 230, 230);
+  color: rgb(230, 230, 230);
+  font-weight: 300;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  background: #FFF;
+  border-color: #FFF;
+  color: #010101;
 }
